@@ -35,9 +35,9 @@ html::-webkit-scrollbar-track {
   background: transparent;
 }
 
-html::-webkit-scrollbar-thumb {
+/* html::-webkit-scrollbar-thumb {
   background: var(--yellow);
-}
+} */
 
 section {
   padding: 5rem 10%;
@@ -52,6 +52,47 @@ section {
   border-left: 1rem solid var(--yellow);
 }
 
+.header img {
+  height: 49px;
+  width: 82px;
+}
+.top{
+  height: 5rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #1C4CBC;
+}
+.contente{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.description{
+  display: flex;
+}
+.content-mail{
+  display: flex;
+}
+.content-mail label{
+  color: #eee;
+  margin-left: 1px;
+}
+.color{
+  color: #eee;
+}
+.desc{
+  color: #f5bf23;
+}
+.sloga p{
+  color:#eee ;
+   font-size: 20px;
+}
+.logo-image{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
 .btn {
   display: inline-block;
   margin-top: 1rem;
