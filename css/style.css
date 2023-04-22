@@ -19,6 +19,32 @@
   border: none;
   text-decoration: none;
 }
+.header_container{
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000!important;
+}
+
+
+.icone{
+  color: #fff;
+  font-size:2rem;
+}
+.icone:hover{
+  color: #fff;
+  text-decoration: none;
+
+}
+span.libelle{
+  font-size:12px!important;
+  font-weight:normal;
+}
+section#topbar{
+  background-color: #1C4CBC;
+  padding: 2rem;
+}
 
 html {
   font-size: 62.5%;
