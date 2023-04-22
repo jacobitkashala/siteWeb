@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 :root {
   --yellow:#f5bf23;
+  --bleu:#1C4CBC;
   --black:#111;
   --white:#fff;
   --light-color:#666;
@@ -37,6 +38,10 @@
   text-decoration: none;
 
 }
+#btn_menu{
+  font-size: 4rem;
+  display:none
+}
 span.libelle{
   font-size:12px!important;
   font-weight:normal;
@@ -61,9 +66,9 @@ html::-webkit-scrollbar-track {
   background: transparent;
 }
 
-/* html::-webkit-scrollbar-thumb {
-  background: var(--yellow);
-} */
+ html::-webkit-scrollbar-thumb {
+  background: var(--bleu);
+} 
 
 section {
   padding: 5rem 10%;
@@ -75,7 +80,7 @@ section {
   color: var(--black);
   text-transform: capitalize;
   padding-left: 1rem;
-  border-left: 1rem solid var(--yellow);
+  border-left: 1rem solid var(--bleu);
 }
 
 .header img {
@@ -133,7 +138,7 @@ section {
 }
 
 .btn:hover {
-  background: var(--yellow);
+  background: var(--bleu);
   color: var(--black);
 }
 
@@ -180,7 +185,7 @@ section {
 }
 
 .header .logo span {
-  color: var(--yellow);
+  color: var(--bleu);
 }
 
 .header .navbar a {
@@ -191,7 +196,7 @@ section {
 }
 
 .header .navbar a:hover {
-  color: var(--yellow);
+  color: var(--bleu);
 }
 
 .header .icons div {
@@ -257,7 +262,7 @@ section {
 }
 
 .header .search-form label:hover {
-  color: var(--yellow);
+  color: var(--bleu);
 }
 
 .header .login-form {
@@ -323,7 +328,7 @@ section {
 }
 
 .header .login-form .flex a:hover {
-  color: var(--yellow);
+  color: var(--bleu);
   text-decoration: underline;
 }
 
@@ -339,7 +344,7 @@ section {
 }
 
 .header .login-form p a {
-  color: var(--yellow);
+  color: var(--bleu);
 }
 
 .header .login-form p a:hover {
@@ -967,9 +972,7 @@ section {
 }
 
 @media (max-width: 991px) {
-  html {
-    font-size: 55%;
-  }
+  
   section {
     padding: 3rem 2rem;
   }
@@ -1000,6 +1003,7 @@ section {
 }
 
 @media (max-width: 768px) {
+  #btn_menu{display:block}
   .header .search-form {
     width: 90%;
   }
