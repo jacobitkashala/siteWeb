@@ -240,30 +240,9 @@ section {
           animation: fadeIn .2s linear;
 }
 
-.header .search-form.active {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
 
-.header .search-form input {
-  width: 100%;
-  padding: 1.2rem 1.4rem;
-  background: var(--light-bg);
-  font-size: 1.6rem;
-  color: var(--light-color);
-}
 
-.header .search-form label {
-  font-size: 2.5rem;
-  color: var(--black);
-  cursor: pointer;
-  margin: 0 1rem;
-}
 
-.header .search-form label:hover {
-  color: var(--bleu);
-}
 
 .header .login-form {
   position: absolute;
@@ -980,15 +959,17 @@ section {
     display: inline-block;
   }
   .header .navbar {
+    display: block!important;
     position: absolute;
     top: 99%;
     left: 0;
     right: 0;
     background: var(--white);
-    border-top: var(--border);
-    border-bottom: var(--border);
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    color: black;
+    /* border-top: var(--border); */
+    /* border-bottom: var(--border); */
+     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
     -webkit-transition: .2s linear;
     transition: .2s linear;
   }
@@ -1004,9 +985,7 @@ section {
 
 @media (max-width: 768px) {
   #btn_menu{display:block}
-  .header .search-form {
-    width: 90%;
-  }
+
   .header .login-form {
     width: 90%;
   }
