@@ -950,6 +950,8 @@ section {
   }
 }
 
+
+
 @media (max-width: 991px) {
   
   section {
@@ -1006,8 +1008,25 @@ section {
   html {
     font-size: 50%;
   }
-  .about .row .content h3 {
-    font-size: 2.5rem;
-  }
+
 }
-/*# sourceMappingURL=style.css.map */
+/*--------------------------------------------------------------
+# Display max-width 400px 
+--------------------------------------------------------------*/
+@media (max-width:400px) {
+  div.header-element{
+      justify-content: start!important;
+      margin-bottom: 3px;
+     
+  }
+  .fa-envelope, .fa-clock{
+    display: none !important;
+  }
+  .sloga p{
+    line-height: 2.5rem;
+  }
+  span.libelle{
+    display: inline-block;
+    margin: 2px 0px;
+  }
+  }
