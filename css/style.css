@@ -265,13 +265,7 @@ section {
   display: block;
 }
 
-.header .login-form h3 {
-  font-size: 2.5rem;
-  color: var(--black);
-  text-transform: capitalize;
-  padding-bottom: 1rem;
-  text-transform: uppercase;
-}
+
 
 .header .login-form .box {
   width: 100%;
@@ -946,7 +940,7 @@ section {
   font-size: 18px;
   color: #fff;
   opacity: .8;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
   transition: color .2s ease-out;
   /* font-weight: 400; */
