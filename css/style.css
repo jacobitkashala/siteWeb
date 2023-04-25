@@ -920,11 +920,16 @@ section {
       -ms-user-select: none;
           user-select: none;
 }
-
+/* Footer */
 .footer {
   background: #000;
   padding: 5% ;
   color: #fff;
+}
+
+.footer h2{
+  font-weight: bold;
+  color: #eee;
 }
 .footer p{
   text-align: start;
@@ -933,6 +938,10 @@ section {
 .footer-contact p{
   margin-bottom: 0px;
 }
+.item{
+  color: #ffff;
+  font-weight: lighter;
+}
 .footer-contact p > a{
   font-size: 18px;
   color: #fff;
@@ -940,7 +949,7 @@ section {
   text-transform: uppercase;
   text-decoration: none;
   transition: color .2s ease-out;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 .row .img_footer{
   height: 7rem;
@@ -951,7 +960,7 @@ section {
   margin: .5rem;
 }
 
-.footer .credit {
+.footer  {
   font-size: 2rem;
   color: var(--black);
   text-transform: capitalize;
@@ -1046,6 +1055,7 @@ section {
   }
   .footer h2{
     font-weight: bold;
+    color: #eee;
   }
 
   .fa-envelope, .fa-clock{
