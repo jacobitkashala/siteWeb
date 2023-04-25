@@ -916,13 +916,35 @@ section {
   height: 10rem;
   pointer-events: none;
   -webkit-user-select: none;
-     -moz-user-select: none;
+    -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
 }
 
 .footer {
-  text-align: center;
+  background: #000;
+  padding: 5% ;
+  color: #fff;
+}
+.footer p{
+  text-align: start;
+  font-size: 18px;
+}
+.footer-contact p{
+  margin-bottom: 0px;
+}
+.footer-contact p > a{
+  font-size: 18px;
+  color: #fff;
+  opacity: .8;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color .2s ease-out;
+  font-weight: 400;
+}
+.row .img_footer{
+  height: 7rem;
+  width: 8rem;
 }
 
 .footer .links .btn {
@@ -1019,6 +1041,13 @@ section {
       margin-bottom: 3px;
      
   }
+  .footer .mb-sm-3{
+    margin-bottom: 3rem;
+  }
+  .footer h2{
+    font-weight: bold;
+  }
+
   .fa-envelope, .fa-clock{
     display: none !important;
   }
