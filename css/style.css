@@ -614,6 +614,7 @@ section {
   color: var(--light-color);
   line-height: 2;
 }
+
 /* Section projet */
 
 .projects {
@@ -692,7 +693,7 @@ section {
   text-align: center;
   line-height: 7.5rem;
 }
-
+/* Section commentaire */
 .reviews .slide p {
   padding: 1.5rem;
   background: var(--light-bg);
@@ -706,6 +707,7 @@ section {
 .reviews .slide p::before {
   content: '';
   position: absolute;
+  /* z-index:-9; */
   bottom: -1rem;
   left: 2rem;
   height: 2rem;
@@ -730,6 +732,9 @@ section {
   width: 7rem;
 }
 
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: -4px;
+}
 .reviews .slide .user h3 {
   font-size: 2rem;
   color: var(--black);
