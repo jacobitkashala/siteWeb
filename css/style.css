@@ -300,21 +300,22 @@ section {
   margin-left: auto;
 }
 
-.header .login-form .flex a:hover {
+.navbar .active {
   color: var(--bleu);
+  font-weight: bolder;
   text-decoration: underline;
 }
+
+/* .header .login-form .flex a:hover {
+  color: var(--bleu);
+  text-decoration: underline;
+} */
 
 .header .login-form .btn {
   width: 100%;
 }
 
-.header .login-form p {
-  font-size: 1.5rem;
-  color: var(--light-color);
-  line-height: 2;
-  padding-top: 1.5rem;
-}
+
 
 .header .login-form p a {
   color: var(--bleu);
@@ -624,9 +625,11 @@ section {
 }
 
 .projects .box-container .box {
-  cursor: initial;
+  cursor: pointer;
 }
-
+.projects .box-container .box:hover{
+  text-decoration: none;
+}
 .projects .box-container .box:hover .image img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
