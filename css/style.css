@@ -299,9 +299,14 @@ section {
   color: var(--light-color);
   margin-left: auto;
 }
-
+.ligne{
+  height: 3px;
+  border-radius: 2px;
+  width: 80%;
+  background-color: white;
+}
 .navbar .active {
-  color: var(--bleu);
+  color: var(--bleu) !important;
   font-weight: bolder;
   text-decoration: underline;
 }
@@ -533,6 +538,7 @@ section {
 
 .about .box-container {
   margin-top: 3rem;
+
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
@@ -544,6 +550,7 @@ section {
 }
 
 .about .box-container .box {
+  height: 100%;
   text-align: center;
   background: var(--light-bg);
   padding: 3rem 2rem;
@@ -607,6 +614,7 @@ section {
   color: var(--light-color);
   line-height: 2;
 }
+/* Section projet */
 
 .projects {
   background: var(--black);
