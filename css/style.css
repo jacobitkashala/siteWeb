@@ -246,10 +246,6 @@ section {
           animation: fadeIn .2s linear;
 }
 
-
-
-
-
 .header .login-form {
   position: absolute;
   top: 120%;
@@ -314,27 +310,25 @@ section {
 .navbar .active {
   color: var(--bleu) !important;
   font-weight: bolder;
-  text-decoration: underline;
+  border-width: 20px;
+  border-bottom: 1px solid var(--bleu) ;
+  
 }
 
-/* .header .login-form .flex a:hover {
-  color: var(--bleu);
-  text-decoration: underline;
-} */
 
-.header .login-form .btn {
+.header  .btn {
   width: 100%;
 }
 
 
-
+a:hover {
+  color: #0056b3;
+  text-decoration: none !important;
+}
 .header .login-form p a {
   color: var(--bleu);
 }
 
-.header .login-form p a:hover {
-  text-decoration: underline;
-}
 
 .contact-info {
   position: fixed;
@@ -521,6 +515,7 @@ section {
 
 .about .row .video video {
   width: 100%;
+  padding: 0 3%;
 }
 
 .about .row .content {
@@ -620,7 +615,15 @@ section {
   color: var(--light-color);
   line-height: 2;
 }
-
+/* Apropos */
+.apropos{
+  padding: 5rem 10%;
+}
+.description-apropos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 /* Section projet */
 
 .projects {
