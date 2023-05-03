@@ -3,4 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/josbarkc/repositories/siteWeb/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp css/style.css $DEPLOYPATH
+    # - /bin/cp css/style.css $DEPLOYPATH
