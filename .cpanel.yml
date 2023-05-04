@@ -2,6 +2,9 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/josbarkc/public_html/
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp  repositories/siteWeb/index.html $DEPLOYPATH
+    - /bin/cp  repositories/siteWeb/css/style.css $DEPLOYPATH
+    # - /bin/cp -R repositories/mji_api $DEPLOYPATH
+    # - /bin/cp * $DEPLOYPATH
     # - /bin/cp index.html $DEPLOYPATH
     # - /bin/cp style.css $DEPLOYPATH
