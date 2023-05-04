@@ -5,7 +5,7 @@ deployment:
     
     # - /bin/cp  repositories/siteWeb/index.html $DEPLOYPATH
     # - /bin/cp  repositories/siteWeb/css/style.css $DEPLOYPATH
-    - /bin/cp -R repositories/siteWeb $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
     # - /bin/cp * $DEPLOYPATH
     # - /bin/cp index.html $DEPLOYPATH
     # - /bin/cp style.css $DEPLOYPATH
