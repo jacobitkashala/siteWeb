@@ -658,9 +658,6 @@ a:hover {
   width: 100%;
   position: relative;
   padding-bottom: 2rem;
-  /* height: 300px; */
-  /* background-image: url('../images/blog-4.jpg'); */
-  background-color: aqua;
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -693,9 +690,9 @@ a:hover {
   padding: 1rem;
 }
 
-.element * {
+/* .element * {
   color: #eee;
-}
+} */
 .element h1 {
   padding-top: 1rem;
 }
