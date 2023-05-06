@@ -324,12 +324,16 @@ section {
   color: var(--light-color);
   margin-left: auto;
 }
+.copyright>p{
+  font:inherit ;
+  font-weight: 250;
+}
 
 .ligne {
-  height: 3px;
+  height: 1px;
   border-radius: 2px;
-  width: 80%;
-  background-color: white;
+  width: 100%;
+  background-color: #cccccc;
 }
 
 .navbar .active {
