@@ -324,8 +324,8 @@ section {
   color: var(--light-color);
   margin-left: auto;
 }
-.copyright>p{
-  font:inherit ;
+.copyright > p {
+  font: inherit;
   font-weight: 250;
 }
 
@@ -471,13 +471,7 @@ a:hover {
   left: 0;
   height: 100%;
   width: 100%;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(var(--white)),
-    to(transparent)
-  );
+  background: -webkit-gradient(linear, left top, right top, from(var(--white)), to(transparent));
   background: linear-gradient(90deg, var(--white), transparent);
 }
 
@@ -1175,26 +1169,32 @@ a:hover {
   } */
   span.libelle {
     font-size: 18px !important;
-    
   }
   .sloga > p {
-    padding-top:10px ;
+    padding-top: 10px;
     line-height: 100%;
- 
   }
-  div.header-element{
-    justify-content: start!important;
-    margin-bottom: .26rem;
-
+  div.header-element {
+    justify-content: start !important;
+    margin-bottom: 0.26rem;
   }
-  div.box-adress{
+  div.box-adress {
     justify-content: start !important;
   }
-  a.icone{
-    padding:.56rem 0 ;
+  a.icone {
+    padding: 0.56rem 0;
   }
 }
+/* Loading */
 
+#preloader{
+  background: #000 url(../images/loading.gif) no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  background-size: 20%;
+  position: fixed;
+  z-index:10000;
+}
 /*--------------------------------------------------------------
 # Display max-width 400px 
 --------------------------------------------------------------*/
@@ -1227,4 +1227,51 @@ a:hover {
     display: inline-block;
     margin: 2px 0px;
   }
+}
+
+/*--------------------------------------------------------------
+# Display max-width 250px 
+--------------------------------------------------------------*/
+@media (max-width: 250px) {
+  div.header-element {
+    justify-content: start !important;
+    margin-bottom: 3px;
+  }
+
+  .footer .mb-sm-3 {
+    margin-bottom: 3rem;
+  }
+
+  .footer h2 {
+    font-weight: bold;
+    color: #eee;
+  }
+
+  .fa-envelope,
+  .fa-clock {
+    display: none !important;
+  }
+
+  .sloga p {
+    line-height: 2.5rem;
+  }
+
+  span.libelle {
+    /* font-size: 20px !important; */
+    display: inline-block;
+    margin: 2px 0px;
+  }
+  .header {
+    height: 6rem;
+    padding: 0rem;
+  }
+  .header img {
+    height: 49px;
+    border-radius: 5px;
+    width: 50%;
+  }
+  .header div {
+    height: 100%;
+    width: 60%;
+}
 }

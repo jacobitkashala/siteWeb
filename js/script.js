@@ -1,10 +1,14 @@
 let navbar = document.querySelector('.header .navbar');
 // let contactInfo = document.querySelector('.contact-info');
+let loader = document.getElementById('preloader');
 
 document.querySelector('#menu-btn').onclick = () =>{
    navbar.classList.toggle('active');
 };
 
+window.addEventListener("load", () =>{
+  loader.style.display= "none";
+})
 
 /*
 document.querySelector('#login-btn').onclick = () =>{
