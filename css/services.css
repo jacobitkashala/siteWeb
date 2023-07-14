@@ -33,3 +33,33 @@ body{
  font-size:13px;
  font-weight: normal;
 }
+/* Presentation */
+.presentation{
+    display: flex;
+    gap: 6rem;
+    margin-top:-12rem;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+i.fa-icon{
+    text-align: center;
+    color: #1c4cbc;
+    font-size:7rem;
+}
+.card-title{
+    padding: 1rem 0;
+    font-size: 1.5rem; 
+    font-weight:bold;
+}
+.card-text{
+    font-size: 1.4rem;
+    font-weight:normal;
+
+}
