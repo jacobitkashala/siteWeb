@@ -33,6 +33,9 @@ body{
  font-size:13px;
  font-weight: normal;
 }
+.card{
+    max-width: 24rem;
+}
 /* Presentation */
 .presentation{
     display: flex;
