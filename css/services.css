@@ -102,3 +102,12 @@ i.fa-icon {
 .box-image {
   width: 45vw;
 }
+
+.description-contact {
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 29% 0%;
+  background-image: url(../images/image-bg.png);
+}
