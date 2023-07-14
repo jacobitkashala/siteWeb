@@ -1,68 +1,104 @@
-body{
-    width: 100%;
-    height: 100vh;
-}
-.services-hero{
-    height: 70vh;
-    width: 100%;
-    background-image: url(../images/hero_service_origin.png) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 29% 20%    ;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
+:root {
+  --yellow: #f5bf23;
+  --bleu: #1c4cbc;
+  --black: #111;
+  --white: #fff;
+  --light-color: #666;
+  --light-bg: #eee;
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  --border: 0.1rem solid rgba(0, 0, 0, 0.3);
 }
-.services-hero h1{
-    font-weight: bold;
+
+body {
+  width: 100%;
+  height: 100vh;
 }
-.content{
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    flex-direction: column;
-    
+.services-hero {
+  height: 70vh;
+  width: 100%;
+  background-image: url(../images/hero_service_origin.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 29% 20%;
 }
-.content-box *{
-    color: #fff;
+.services-hero h1 {
+  font-weight: bold;
 }
-.content-box h1{
-    font-size:9rem;
-    width: 70%;
-    font-weight: 900;
-   }
-.content-box p{
- font-size:13px;
- font-weight: normal;
+.content {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
 }
-.card{
-    max-width: 24rem;
+.content-box * {
+  color: #fff;
+}
+.content-box h1 {
+  font-size: 9rem;
+  width: 70%;
+  font-weight: 900;
+}
+.content-box p {
+  font-size: 13px;
+  font-weight: normal;
+}
+.card {
+  max-width: 24rem;
 }
 /* Presentation */
-.presentation{
-    display: flex;
-    gap: 6rem;
-    margin-top:-12rem;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
+.presentation {
+  display: flex;
+  gap: 6rem;
+  margin-top: -12rem;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-i.fa-icon{
-    text-align: center;
-    color: #1c4cbc;
-    font-size:7rem;
+i.fa-icon {
+  text-align: center;
+  color: #1c4cbc;
+  font-size: 7rem;
 }
-.card-title{
-    padding: 1rem 0;
-    font-size: 1.5rem; 
-    font-weight:bold;
+.card-title {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
-.card-text{
-    font-size: 1.4rem;
-    font-weight:normal;
-
+.card-text {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+.container-methode {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.box-methode {
+  width: 70%;
+}
+.box-methode h1 {
+  margin-bottom: 3rem;
+  color: var(--black);
+  text-transform: capitalize;
+  font-size: 3rem;
+  padding-left: 1rem;
+  border-left: 1rem solid var(--bleu);
+}
+.box-methode p {
+  font-size: 1.7rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  text-align: justify;
+  padding-right: 4rem;
+}
+.box-image {
+  width: 45vw;
 }
