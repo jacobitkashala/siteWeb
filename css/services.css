@@ -104,10 +104,33 @@ i.fa-icon {
 }
 
 .description-contact {
-  height: 60vh;
+  height: 70vh;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 29% 0%;
   background-image: url(../images/image-bg.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+.description-contact *{
+  color:#eee
+}
+.description-contact .intro{
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+}
+.call,.call:hover{
+  color: #eee;
+}
+
+.description-contact .detail{
+  font-size: 1.7rem;
+  margin: 1rem;
+  text-align: justify;
+  padding-right: 4rem;
 }
