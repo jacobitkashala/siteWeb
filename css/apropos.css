@@ -26,27 +26,41 @@ section.container-ceo {
   background-color: #063175;
   padding: 0;
 }
+div.ceo-desciption {
+  width: 50%;
+  padding: 5rem 10%;
+  padding-right: 2%;
+}
+.ceo-desciption h1{
+ font-size:4rem;
+ font-weight:900;
+ margin: 1rem 0;
+}
+.ceo-desciption p{
+  text-align: justify;
+}
 p.ceo-lin {
   height: 0.16rem;
-  border-radius: 50%;
+  border-radius: 32rem;
   width: 6rem;
   margin: 0;
   background-color: #eee;
 }
 p.ceo-petite-description {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: lighter;
 }
-div.ceo-desciption {
-  width: 50%;
-  padding: 5rem 10%;
-}
+
 .ceo-desciption * {
   color: #eee;
 }
 .ceo-picture {
   width: 50%;
   height: 100%;
+}
+p.ceo-description-content{
+  font-size: 2rem;
+  font-weight:normal
 }
 
 div.ceo-picture img {
