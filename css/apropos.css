@@ -2,8 +2,8 @@
     display:flex;
 }
 h3.about-titre{
-    /* font-size: */
-    font-size: 5rem;
+    
+    font-size: 4rem;
     font-weight: 900;
     margin-bottom: 1rem;
 }
@@ -15,6 +15,27 @@ h3.about-titre{
 .content-left p{
     font-size: 2rem;
     text-align: justify;
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
     margin-right: 8.5rem;
+}
+/* présentation ceo */
+/* padding: 5rem 10%; */
+section.container-ceo{
+    display: flex;
+    height: 75vh;
+    width: 100%;
+    padding: 0;
+}
+
+div.ceo-desciption{
+    background-color:#063175;
+    width: 100%;
+    padding: 5rem 10%; 
+}
+.ceo-desciption *{
+    color: #eee;
+}
+.ceo-picture{
+    /* width: 100%; */
+    height: 100%;   
 }
