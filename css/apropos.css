@@ -79,6 +79,7 @@ section.box-equipe {
   margin-bottom: 2rem;
 }
 .profil-container {
+  
   display: flex;
   gap: 1rem;
   flex-direction: row;
@@ -99,6 +100,7 @@ div.description-profil {
   align-items: flex-start; */
 }
 .description-profil h1 {
+  padding-top: 1rem;
   font-size: 2rem;
   font-weight: 900;
   margin-bottom: .25rem;
