@@ -67,6 +67,15 @@ i.fa-icon {
   color: #1c4cbc;
   font-size: 7rem;
 }
+.card-body:hover i.fa-icon {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.card-body i.fa-icon {
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
 .card-title {
   padding: 1rem 0;
   font-size: 1.5rem;
@@ -113,22 +122,23 @@ i.fa-icon {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center
+  align-items: center;
 }
-.description-contact *{
-  color:#eee
+.description-contact * {
+  color: #eee;
 }
-.description-contact .intro{
+.description-contact .intro {
   font-size: 5rem;
   font-weight: 900;
   line-height: 1;
   text-align: center;
 }
-.call,.call:hover{
+.call,
+.call:hover {
   color: #eee;
 }
 
-.description-contact .detail{
+.description-contact .detail {
   font-size: 1.7rem;
   margin: 1rem;
   text-align: justify;
