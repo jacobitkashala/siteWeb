@@ -31,12 +31,12 @@ div.ceo-desciption {
   padding: 5rem 10%;
   padding-right: 2%;
 }
-.ceo-desciption h1{
- font-size:4rem;
- font-weight:900;
- margin: 1rem 0;
+.ceo-desciption h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 1rem 0;
 }
-.ceo-desciption p{
+.ceo-desciption p {
   text-align: justify;
 }
 p.ceo-lin {
@@ -58,11 +58,47 @@ p.ceo-petite-description {
   width: 50%;
   height: 100%;
 }
-p.ceo-description-content{
+p.ceo-description-content {
   font-size: 2rem;
-  font-weight:normal
+  font-weight: normal;
 }
 
 div.ceo-picture img {
   height: inherit;
+}
+/* Présentation Equipe */
+section.box-equipe {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.box-equipe h3 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+.profil-container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  width: 40%;
+}
+div.box-profil {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  justify-content: space-evenly;
+}
+div.description-profil {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.description-profil h1 {
+  font-size: 2rem;
+  font-weight: 900;
 }
