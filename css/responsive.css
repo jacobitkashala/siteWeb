@@ -101,17 +101,22 @@
     width: 100%;
   }
   section.container-ceo {
-    flex-direction: row-reverse;
+    flex-direction: column;
+    /* flex-direction: row-reverse; */
     flex-wrap: wrap; 
     height: max-content;
-    padding-right: 1rem;
+   /*  padding-right: 1rem; */
   }
   div.ceo-desciption {
     width: 100%;
   }
-  
   .ceo-picture {
     width: 100%;
+    /* height: 100%; */
+  }
+  .ceo-picture img {
+    width: 100vw;
+    height: 50%;
   }
   section.box-equipe {
     /* display: flex; */
