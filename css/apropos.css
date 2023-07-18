@@ -90,15 +90,29 @@ div.box-profil {
   flex-wrap: wrap;
   gap: .5rem;
   justify-content: space-evenly;
+  padding: 0 7rem;
 }
 div.description-profil {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: flex-start;
+  /* justify-content: space-around;
+  align-items: flex-start; */
 }
 .description-profil h1 {
   font-size: 2rem;
   font-weight: 900;
+  margin-bottom: .25rem;
+}
+.description-profil p{
+  font-size: 1.5rem;
+}
+p.profil-post{
+  margin-bottom: 2rem;
+  font-weight: lighter;
+}
+p.profil-desc{
+  font-weight: normal;
+  line-height:2rem;
+  text-align: justify;
 }
