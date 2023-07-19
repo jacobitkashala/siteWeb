@@ -16,6 +16,11 @@
     font-size:2rem;
     font-weight:normal;
 }
+.box-projet{
+    margin-top: 5rem;
+    background-color:#032540;
+    padding:4rem;
+}
 .container-projet h1{
     color: #eeeeee;
     width: 80%;
@@ -24,11 +29,10 @@
 }
 .container-content{
     /* height: fit-content; */
-    margin-top: 5rem;
-    background-color:#032540;
-    padding:4rem;
+    display: flex;
+    gap: 3rem;
 }
 .image-fist img{
-    width: 40vh;
-    height: 40vh;
+    /* width: 40vh;
+    height: 40vh; */
 }
